@@ -44,4 +44,4 @@ FROM `departments`;
 
 SELECT COUNT(*) AS `teachers_without_phone`
 FROM `teachers`
-WHERE `phone` IS NOT NULL;
+WHERE `phone` IS NULL;
